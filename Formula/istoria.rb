@@ -1,14 +1,14 @@
 class Istoria < Formula
   desc "Local log viewer — pipe stdout into a native window"
   homepage "https://github.com/dmitry-zaitsev/istoria"
-  version "1.5.1"
+  version "1.5.2"
   license "MIT"
 
   depends_on arch: :arm64
   depends_on :macos
 
-  url "https://github.com/dmitry-zaitsev/istoria-releases/releases/download/v1.5.1/istoria-1.5.1-aarch64-apple-darwin.app.tar.gz"
-  sha256 "e3c2ea6888c77cbd886bb4e1e17dbb7e660115cae424da5b37975241be7b0388"
+  url "https://github.com/dmitry-zaitsev/istoria-releases/releases/download/v1.5.2/istoria-1.5.2-aarch64-apple-darwin.app.tar.gz"
+  sha256 "cdf38fc9ec179f6c5d7d97f709c9b9d9ed6f710aa4b08927fcf271898f471558"
 
   def install
     prefix.install "istoria.app"
